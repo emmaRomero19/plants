@@ -115,7 +115,7 @@ class _HomePageState extends State<HomePage> {
       numResults: 2,
       imageMean: 127.5,
       imageStd: 127.5,
-      threshold: 0.5
+      threshold: 0.1
     );
     setState(() {
       _isLoading = false;
